@@ -1,5 +1,5 @@
 # HexVASAN: Venerable Variadic Vulnerabilities Vanquished
-
+Recommended LLVM version is 3.9.1 
 ## To build:
 ### Step 1: `git clone https://github.com/HexHive/HexVASAN.git`
 ### Step 2: Now in your llvm working directory, do the following steps
