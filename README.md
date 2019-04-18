@@ -22,6 +22,9 @@ Recommended LLVM version is 3.9.1
     
   - rm /path/to/llvm/tools/clang/lib/CodeGen/BackendUtil.cpp
     ln -s /path/to/HexVASAN/src/BackendUtil.cpp /path/to/llvm/tools/clang/lib/CodeGen/BackendUtil.cpp
+    
+  - rm /path/to/llvm/lib/Transforms/Instrumentation/CMakeLists.txt
+    ln -s /path/to/HexVASAN/lib/Transforms/Instrumentation/CMakeLists.txt /path/to/llvm/lib/Transforms/Instrumentation/CMakeLists.txt
  ```
     
  ### Step 3: 
